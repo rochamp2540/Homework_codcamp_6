@@ -1,5 +1,11 @@
 class UserTemplate {
-  constructor(name, password, age, date) {
+
+  name = ""
+  password = ""
+  age = null
+  date = ""
+
+  UserTemplate(name, password, age, date) {
     this.name = name;
     this.password = password;
     this.age = age;
